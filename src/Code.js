@@ -33,6 +33,12 @@ export default function Code() {
                     <tr><td>git checkout hash</td></tr>
                     <tr><td>git revert hash</td></tr>
                     <tr><td>git reset --hard hash</td></tr>
+                    <tr><td>git branch #branchName</td></tr>
+                    <tr><td>git branch -a //看看有什麼branch</td></tr>
+                    <tr><td>git switch #branchName</td></tr>
+                    <tr><td>git branch -D #branchname //刪除branch</td></tr>
+                    <tr><td>git merge #branchname //從main merge branch</td></tr>
+                    <tr><td>git push #gitLink #branchName</td></tr>
                     <tr><td><br/></td></tr>
                 </tbody>
             </table>
