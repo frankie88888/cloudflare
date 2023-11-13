@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Checkout from './Checkout';
 import ProductDetail from './ProductDetail';
 import ProductList from './ProductList';
+import Code from './Code';
 import {CartContext} from './CartContext'
 import { useState } from 'react';
 
@@ -17,12 +18,13 @@ function App() {
 			<nav>
 				<Link to="/">首頁</Link> 
 				<Link to="/checkout">購物車</Link>
+				<Link to="/code">code</Link>
 			</nav>
 
 			<Routes>
 				<Route path="/" element={<ProductList/>} />
 				<Route path="/checkout" element={<Checkout/>} />
-
+				<Route path="/code" element={<Code/>} />
 				<Route path="/product" element={<ProductDetail/>}>
 					<Route path=":id" element={<ProductDetail/>} />
 				</Route>
