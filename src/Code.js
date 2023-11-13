@@ -6,8 +6,16 @@ export default function Code() {
             <h1>Code</h1>
 
             <table>
-                <tr><td>Create react 框架 : npx create-react-app &lt;name&gt;<br /></td></tr>
-                <tr><td>test application : npm start</td></tr>
+                <tbody>
+                <tr><td>React<br /></td></tr>
+                <tr><td>Create react 框架 : npx create-react-app &lt;name&gt;</td></tr>
+                    <tr><td>test application : npm start</td></tr>
+                    <tr><td><br/></td></tr>
+                    <tr><td>Node.js</td></tr>
+                    <tr><td><br/></td></tr>
+                    <tr><td>Git</td></tr>
+                    <tr><td><br/></td></tr>
+                </tbody>
             </table>
         </div>
     )
